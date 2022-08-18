@@ -61,8 +61,7 @@ setupPopupEventHandlers()
 const inputElement = document.querySelector('.form__item_el_avatar')
 inputElement.addEventListener("change", handleFiles, false)
 
-function handleFiles(e) {
-    e.preventDefault()
+function handleFiles() {
     const fileList = this.files;
     for (let i = 0; i < fileList.length; i++) {
         const file = fileList[i];
@@ -80,5 +79,16 @@ function handleFiles(e) {
         })(img);
         reader.readAsDataURL(file);
     }
+    document.querySelector('.delete-file').classList.add('active')
+}
+const buttonDeleteFile = document.querySelector('.delete-file')
+
+buttonDeleteFile.addEventListener("click", handleDelFiles, false)
+
+function handleDelFiles () {
+    const img = document.querySelector('.image-avatar');
+    document.querySelector('.delete-file').classList.remove('active')
+    img.src = "./images/avatar.png"
     
+
 }

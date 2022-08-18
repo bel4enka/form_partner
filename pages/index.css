@@ -40,3 +40,5 @@
 @import "../blocks/button/button.css";
 @import "../blocks/form/__column/form__column.css";
 @import "../blocks/text-field/__hidden-input/text-field__hidden-input.css";
+@import "../blocks/delete-file/delete-file.css";
+@import "../blocks/active/active.css";

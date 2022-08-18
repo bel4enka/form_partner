@@ -1,0 +1,13 @@
+.delete-file {
+    display: none;
+    content: '';
+    background: #fff url('../../images/icon/close.svg') no-repeat 50%;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 50px;
+    padding: 11px;
+    border-radius: 50%;
+    right: 51px;
+    z-index: 5;
+}
