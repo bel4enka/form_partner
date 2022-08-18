@@ -1,0 +1,6 @@
+.text-field__icon_fb::after {
+    width: 18px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDkgMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNS44NDIyNSAxN1Y5LjI0NjA3SDguNDk0NjlMOC44OTI2NCA2LjIyMzMzSDUuODQyMjVWNC4yOTM3NUM1Ljg0MjI1IDMuNDE4ODcgNi4wODg5MyAyLjgyMjY1IDcuMzY5NDYgMi44MjI2NUw5IDIuODIxOTlWMC4xMTgzNDVDOC43MTgwMiAwLjA4MjQwMzUgNy43NTAwOCAwIDYuNjIzNTEgMEM0LjI3MTAzIDAgMi42NjA0OCAxLjQwODQyIDIuNjYwNDggMy45OTQzOFY2LjIyMzMzSDBWOS4yNDYwN0gyLjY2MDQ4VjE3SDUuODQyMjVaIiBmaWxsPSIjM0I1OTk4Ii8+Cjwvc3ZnPgo=");
+    background-repeat: no-repeat;
+    background-position: center;
+}

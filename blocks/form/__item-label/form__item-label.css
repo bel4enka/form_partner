@@ -1,0 +1,11 @@
+.form__item-label {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'PTSans', SansSerif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--title-font-color)
+}

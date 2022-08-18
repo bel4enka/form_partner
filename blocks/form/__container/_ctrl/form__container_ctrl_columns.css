@@ -1,0 +1,12 @@
+.form__container_ctrl_columns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .form__container_ctrl_columns {
+        flex-direction: column;
+        gap: 0;
+    }
+}

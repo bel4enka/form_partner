@@ -1,0 +1,9 @@
+.page {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

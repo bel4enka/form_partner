@@ -1,0 +1,42 @@
+.form__item-label_type_hidden {
+    font-family: 'PTSans', serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    top: 60px;
+    left: 0;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form__item-label_type_hidden::before {
+    content: '';
+    background: url('../../../../images/upload.svg') no-repeat 50%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .form__item-label_type_hidden {
+        display: none;
+    }
+}

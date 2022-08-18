@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Стать партнером</title>
+  <script defer="defer" src="./scripts/index.js"></script>
+  <script defer="defer" src="./scripts/validate.js"></script>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="root">
+  <div class="page">
+    <button class="button button__open-partner" type="button">Написать</button>
+    
+  </div>
+  <div class="popup popup_type_partner">
+    <div class="popup__container">
+      <h2 class="popup__header">Стать партнёром проекта</h2>
+      <form class="popup__form form-partner form" name="partner" novalidate>
+        <fieldset class="form__container form__container_ctrl_columns">
+          <div class="form__column">
+            <div class="form__wrap">
+              <label class="form__item-label" for="name-input">
+                <strong class="form__item-label_type_required">&#10038;</strong> Название организации</label>
+              <input id="name-input" type="text" name="name" value=""
+                     class="form__item form__item_el_name" minlength="2" maxlength="200" required >
+              <span class="name-input-error form__item-error form__item-error_active"></span>
+            </div>
+            <div class="form__wrap">
+              <label class="form__item-label" for="telephone-input">
+                <strong class="form__item-label_type_required">&#10038;</strong> Телефон</label>
+              <input id="telephone-input" type="text" name="telephone"
+                     class="form__item form__item_el_telephone" minlength="2" maxlength="20" required>
+              <span class="telephone-input-error form__item-error"></span>
+            </div>
+            <div class="form__wrap">
+              <label class="form__item-label" for="mail-input">
+                <strong class="form__item-label_type_required">&#10038;</strong> E-mail</label>
+              <input id="mail-input" type="email" name="mail"
+                     class="form__item form__item_el_mail" minlength="2" maxlength="20" required>
+              <span class="mail-input-error form__item-error"></span>
+            </div>
+          </div>
+          <div class="form__column">
+            <div class="form__wrap text-field">
+              <div class="text-field__hidden-input">
+                <label class="form__item-label form__item-label_type_important" for="avatar-input">
+                  <strong class="form__item-label_type_required">&#10038;</strong> Логотип (jpeg, png)</label>
+                <label class="form__item-label form__item-label_type_hidden" for="avatar-input">
+                  Выберите<br> файл
+                  <img class="image-avatar" src="./images/avatar.png" alt="Выбранный логотип">
+                </label>
+                <input id="avatar-input" type="file" name="avatar" value=""
+                       class="form__item form__item_el_avatar" minlength="2" maxlength="200" required>
+                <span class="avatar-input-error form__item-error"></span>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form__container form__container_ctrl_input">
+          <div class="form__wrap text-field">
+            <label class="form__item-label" for="direction-input">
+              <strong class="form__item-label_type_required">&#10038;</strong> Направление
+            </label>
+            <div class="text-field__ctrl">
+              <select id="direction-input" type="text" name="direction"
+                     class="form__item form__item_el_direction" required>
+                <option value="">-- Выберите направление --</option>
+                <option value="ecology">Экология</option>
+                <option value="business">Торговля</option>
+                <option value="medicine">Медицина</option>
+              </select>
+            </div>
+            <span class="direction-input-error form__item-error"></span>
+          </div>
+
+          <div class="form__wrap text-field">
+            <div class="text-field__icon text-field__icon_site">
+              <input id="site-input" type="text" name="site"
+                     class="form__item form__item_type_without-label form__item_el_site">
+              <span class="site-input-error form__item-error"></span>
+            </div>
+          </div>
+          <div class="form__wrap text-field">
+            <div class="text-field__icon text-field__icon_vk">
+              <input id="vk-input" type="text" name="vk"
+                     class="form__item form__item_type_without-label form__item_el_vk">
+              <span class="vk-input-error form__item-error"></span>
+            </div>
+          </div>
+          <div class="form__wrap text-field">
+            <div class="text-field__icon text-field__icon_ok">
+              <input id="ok-input" type="text" name="ok"
+                     class="form__item form__item_type_without-label form__item_el_ok">
+              <span class="ok-input-error form__item-error"></span>
+            </div>
+          </div>
+          <div class="form__wrap text-field">
+            <div class="text-field__icon text-field__icon_fb">
+              <input id="fb-input" type="text" name="fb"
+                     class="form__item form__item_type_without-label form__item_el_fb">
+              <span class="fb-input-error form__item-error"></span>
+            </div>
+          </div>
+          <div class="form__wrap text-field">
+            <div class="text-field__icon text-field__icon_instagram">
+              <input id="instagram-input" type="text" name="instagram"
+                     class="form__item form__item_type_without-label form__item_el_instagram">
+              <span class="instagram-input-error form__item-error"></span>
+            </div>
+          </div>
+          <div class="form__wrap text-field">
+            <div class="text-field__icon text-field__icon_youtube">
+              <input id="youtube-input" type="text" name="youtube"
+                     class="form__item form__item_type_without-label form__item_el_youtube">
+              <span class="youtube-input-error form__item-error"></span>
+            </div>
+          </div>
+
+          <div class="form__wrap">
+            <label class="form__item-label" for="director-input">Руководитель</label>
+            <input id="director-input" type="text" name="director"
+                   class="form__item form__item_el_mail" minlength="2" maxlength="100">
+           
+            <span class="director-input-error form__item-error"></span>
+          </div>
+        </fieldset>
+        <fieldset class="form__container form__container_ctrl_button">
+          <button type="submit" class="form__button form__button_submit form__button_loading">Стать партнёром проекта</button>
+          <button type="button" class="form__button form__button_close">Отменить</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

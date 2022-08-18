@@ -1,0 +1,15 @@
+.popup__header {
+  margin: 0 0 35px 0;
+  font-weight: 800;
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  line-height: 34px;
+  color: var(--main-font-color)
+}
+
+@media screen and (max-width: 600px) {
+  .popup__header {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

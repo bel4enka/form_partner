@@ -1,0 +1,16 @@
+.form__item-error_active {
+  color: #FF0000;
+  font-family: Inter, sans-serif, Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  top: 57px;
+  left: 0;
+}
+@media screen and (max-width: 350px) {
+  .form__item-error_active {
+    font-size: 11px;
+  }
+}

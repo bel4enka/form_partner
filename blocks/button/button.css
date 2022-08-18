@@ -1,0 +1,13 @@
+.button {
+    background: transparent;
+    border: 1px solid var(--button-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--button-color);
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+}

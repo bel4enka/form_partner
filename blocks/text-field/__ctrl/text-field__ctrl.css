@@ -1,0 +1,9 @@
+.text-field__ctrl::after {
+    content: "∨";
+    position: absolute;
+    right: 0;
+    top: 35%;
+    left: 92%;
+    pointer-events: none;
+    color: #6A6E72;
+}

@@ -1,0 +1,17 @@
+.form__item-label_type_important {
+    font-weight: 700;
+    position: static;
+}
+
+@media screen and (max-width: 600px) {
+    .form__item-label_type_important {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form__item-label_type_important {
+        position: relative;
+        top: 10px;
+    }
+}

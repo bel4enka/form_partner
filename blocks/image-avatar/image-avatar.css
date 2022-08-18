@@ -1,0 +1,14 @@
+.image-avatar {
+    border-radius: 50%;
+    height: 160px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    width: 160px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.7)
+}

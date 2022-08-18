@@ -1,0 +1,13 @@
+:root {
+    
+    /* Font */
+    --main-font-color: #0C1014;
+    --title-font-color: #6A6E72;
+    --note-font-color: #D90000;
+    
+    /* Input */
+    --input-border-color: #D6DADE;
+
+    /* Button */
+    --button-color: #E5266E;
+}

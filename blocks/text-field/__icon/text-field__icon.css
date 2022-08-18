@@ -1,0 +1,11 @@
+.text-field__icon::after {
+    content: '';
+    color: #bdbdbd;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}

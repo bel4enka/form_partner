@@ -1,0 +1,31 @@
+.form__item {
+  border: 1px solid #D6DADE;
+  height: 56px;
+  border-radius: 2px;  min-width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-font-color);
+  padding: 22px 5px 7px 16px;
+  transition: border-bottom-color;
+}
+
+.form__item:last-child {
+  margin-bottom: 0;
+}
+
+.form__item:hover {
+  border-bottom-color: rgba(51, 22, 242, .5);;
+}
+
+.form__item:focus {
+  border-bottom-color: rgba(51, 22, 242, .5);;
+  outline: none;
+}
+@media screen and (max-width: 600px) {
+  .form__item {
+    width: 100%;
+    font-size: 14px;
+  }
+}
